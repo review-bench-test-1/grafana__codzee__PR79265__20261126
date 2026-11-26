@@ -1,6 +1,6 @@
 module github.com/grafana/grafana
 
-go 1.21
+go 1.25.0
 
 // Override docker/docker to avoid:
 // go: github.com/drone-runners/drone-runner-docker@v1.8.2 requires
@@ -59,7 +59,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // @grafana/alerting-squad-backend
 	github.com/golang/mock v1.6.0 // @grafana/alerting-squad-backend
 	github.com/golang/snappy v0.0.4 // @grafana/alerting-squad-backend
-	github.com/google/go-cmp v0.6.0 // @grafana/backend-platform
+	github.com/google/go-cmp v0.7.0 // @grafana/backend-platform
 	github.com/google/uuid v1.4.0 // @grafana/backend-platform
 	github.com/google/wire v0.5.0 // @grafana/backend-platform
 	github.com/gorilla/websocket v1.5.0 // @grafana/grafana-app-platform-squad
@@ -113,7 +113,7 @@ require (
 	golang.org/x/exp v0.0.0-20230321023759-10a507213a29 // @grafana/alerting-squad-backend
 	golang.org/x/net v0.19.0 // @grafana/oss-big-tent @grafana/partner-datasources
 	golang.org/x/oauth2 v0.15.0 // @grafana/grafana-authnz-team
-	golang.org/x/sync v0.4.0 // @grafana/alerting-squad-backend
+	golang.org/x/sync v0.20.0 // @grafana/alerting-squad-backend
 	golang.org/x/time v0.3.0 // @grafana/backend-platform
 	golang.org/x/tools v0.13.0 // @grafana/grafana-as-code
 	gonum.org/v1/gonum v0.12.0 // @grafana/observability-metrics
@@ -241,7 +241,7 @@ require (
 	github.com/golang-migrate/migrate/v4 v4.7.0 // @grafana/backend-platform
 	github.com/google/go-github v17.0.0+incompatible // @grafana/grafana-delivery
 	github.com/google/go-github/v45 v45.2.0 // @grafana/grafana-delivery
-	github.com/grafana/codejen v0.0.3 // @grafana/dataviz-squad
+	github.com/grafana/codejen v0.0.4 // @grafana/dataviz-squad
 	github.com/grafana/dskit v0.0.0-20230706162620-5081d8ed53e6 // @grafana/backend-platform
 	github.com/huandu/xstrings v1.3.1 // @grafana/partner-datasources
 	github.com/jmoiron/sqlx v1.3.5 // @grafana/backend-platform
